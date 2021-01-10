@@ -1,0 +1,227 @@
+body
+{
+  background-image: url("../Images/Weight.jpg");                    
+  background-repeat:   no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+  
+  .wrapper1
+  {
+    position: absolute;
+    width: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .wrapper1 > h1
+  {
+    color: white;
+  font-size: 70px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  letter-spacing: 8px;
+  }
+
+  .wrapper1 >h2
+  {
+    color: white;
+  font-size: 35px;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 20px;
+  margin-top:20px;
+  letter-spacing: 8px;
+  text-align: center;
+  line-height: 1;
+  }
+  .wrapper1 > h1 + h2 { margin-top: 10px; }
+
+  .wrapper2
+  {
+    position: relative;
+    margin-top: 38%;
+  }
+
+  .square {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.9);
+  padding: 40px;
+  
+  }
+
+  
+.content-container { 
+  position: absolute;
+  left: 200px;
+}
+
+.card {
+  background-color: rgba(255,255,255, 0.8) !important;
+}
+
+.rounded-circle
+{
+  display:block;
+  margin:auto;
+}
+
+h3 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h3:before,
+
+h3:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h3:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.hey
+{
+  text-align: center;
+  line-height: 80%;
+  margin-top: 25px;
+}
+
+.hey > h1{
+  font-family: 'Bebas Neue', cursive; 
+  text-align: center; font-size: 50px; 
+  margin-top: 25px;
+}
+
+
+.square1 {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.9);
+  padding: 40px;
+  
+  }
+
+  .top
+  {
+    position: relative;
+ 
+  }
+
+  .top > p{
+    padding: 25px;
+    font-size: 18px;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;  
+
+  }
+
+  .top > h3
+  {
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 35px;
+  }
+
+  .middle
+  {
+    height: 200px;
+    position: relative;
+  }
+
+  .middle > p
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .bottom
+  {
+    height: 200px;
+  }
+
+  .bottom >p
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .portfolio{
+    padding:6%;
+    text-align:center;
+}
+
+.bio-info{
+    padding: 5%;
+    background:#fff;
+    background-color: rgba(255,255,255, 0.8) !important;
+}
+.name{
+    font-family: 'Charmonman', cursive;
+    font-weight:600;
+}
+.bio-image{
+    text-align:center;
+}
+.bio-image img{
+    border-radius:50%;
+}
+.bio-content{
+    text-align:left;
+    overflow-wrap: break-word;
+}
+
+.bio-content >p{
+  
+  text-align:center;
+  line-height: 80%;
+}
+
+
+.about {
+
+  text-align:center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.square2 {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: rgba(255,255,255,0.9);
+  padding: 40px;
+  width: 450px;
+  height: 450px;
+  
+  }
+
+
+
